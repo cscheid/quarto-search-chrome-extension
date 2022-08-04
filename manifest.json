@@ -1,0 +1,10 @@
+{
+    "name": "Quarto Search",
+    "description": "Search quarto's website from the omnibar",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "omnibox": { "keyword" : "qs" }   
+}
